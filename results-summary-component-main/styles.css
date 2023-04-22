@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;700&display=swap');
+*{
+    margin: 0;
+    font-family: 'Outfit';
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+  
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.box{
+    display: flex;
+    height: 70%;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+.firstBox{
+
+    background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 400px;
+}
+.secondBox{
+   border-left: 10px;
+   border-top-right-radius: 10px;
+   border-bottom-right-radius: 10px;
+    box-shadow:
+    0 2.8px 2.2px hsl(221, 100%, 96%),
+    0 6.7px 5.3px hsl(221, 100%, 96%),
+    0 12.5px 10px hsl(221, 100%, 96%),
+    0 22.3px 17.9px hsl(221, 100%, 96%);
+    
+   display: flex;
+   justify-content: space-around;
+   flex-direction: column;
+   width: 400px;
+   background-color: hsl(0, 0%, 100%);
+   align-items: center;
+   
+}
+.secondBox h1{
+    align-self: flex-start;
+    font-size: 23px;
+    padding-left: 30px;
+    color: hsla(224, 30%, 27%,80%);
+}
+
+.firstBox .circle{
+    display: flex;
+    height: 35%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 50%;
+    border-radius: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: hsl(241, 100%, 89%);
+    font-size: 15px;
+}
+p {
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+}
+#title{
+    font-size: medium;
+    color: hsl(241, 100%, 89%);
+    
+}
+.item{
+    display: flex;
+    height: 11%;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.item.one{
+    background-color: hsla(0, 100%, 67%, 5%)
+}
+.item.two{
+    background-color: hsla(39, 100%, 56%, 5%)
+}
+.item.three{
+    background-color: hsla(166, 100%, 37%, 5%)
+}
+.item.four{
+    background-color: hsla(234, 85%, 45%, 5%)
+}
+.icon{
+    display: flex;
+        gap: 10px;
+    justify-content: flex-start;
+}
+.icon.reaction{
+    color: hsl(0, 100%, 67%);
+}
+.icon.memory{
+    color: hsl(39, 100%, 56%);
+}
+.icon.verbal{
+    color: hsl(166, 100%, 37%);
+}
+.icon.visual{
+    color: hsl(234, 85%, 45%);
+}
+.btn{
+    display: flex;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(224, 30%, 27%);
+    font-size: medium;
+    color: hsl(241, 100%, 89%);
+}
+.btn:active{
+    background-image: linear-gradient( hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+.secondBox span{
+    font-weight: bold;
+}
