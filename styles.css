@@ -139,3 +139,30 @@ p {
 .secondBox span{
     font-weight: bold;
 }
+
+
+@media (max-width: 500px){
+    
+    main{
+        margin: 0;
+        height: 100vh;
+        width: 100vw;
+
+    }
+    .box{
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100vh;
+    }
+    .firstBox{
+        
+        height: 70em;
+        border-top-right-radius: 0%;
+        border-top-left-radius: 0%;
+
+        
+    }
+    .secondBox{
+        height: 1000px;
+    }
+}  
